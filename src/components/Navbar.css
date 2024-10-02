@@ -1,0 +1,47 @@
+/* Navbar container */
+nav {
+    background-color: #333;  /* Dark background color */
+    padding: 10px 0;         /* Padding for vertical spacing */
+  }
+  
+  /* Navbar list */
+  nav ul {
+    display: flex;           /* Display the list items horizontally */
+    list-style-type: none;   /* Remove default list bullets */
+    margin: 0;
+    padding: 0;
+    justify-content: center; /* Center the items horizontally */
+  }
+  
+  /* Navbar list items */
+  nav ul li {
+    margin: 0 20px;          /* Horizontal space between links */
+  }
+  
+  /* Navbar links */
+  nav ul li a {
+    color: white;            /* White text color */
+    text-decoration: none;   /* Remove underline from links */
+    padding: 10px 15px;      /* Padding for clickable area */
+    display: block;          /* Make the link a block element */
+    border-radius: 4px;      /* Rounded corners */
+    font-size: 16px;         /* Text size */
+  }
+  
+  /* Hover effects for links */
+  nav ul li a:hover {
+    background-color: #575757;  /* Darker background on hover */
+  }
+  
+  /* Active link (you can handle the active state using JavaScript or React) */
+  nav ul li a.active {
+    background-color: #4CAF50;  /* Green background for active link */
+  }
+  
+  /* Navbar on mobile screens */
+  @media (max-width: 768px) {
+    nav ul {
+      flex-direction: column; /* Stack items vertically on small screens */
+      align-items: center;
+    }
+  }

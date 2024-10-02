@@ -47,7 +47,6 @@ const resetResult = (e) => {
   return (
     <div>
         <h2>Bulid a Calculator using React</h2>
-        <h2>Bulid a Calculator using React</h2>
 
         <form>
             <p>{result}</p>
